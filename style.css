@@ -10,14 +10,26 @@ img {
 /* phone */
 
 body {
-background-color:blue;
-  
+  background-color:blueviolet;
 }
 .WHAT{
   display:flex;
-    flex-direction: column;
+  flex-direction: column;
+  justify-content: center;
+    margin: 1px;
 }
-
+.HUH{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+    margin: 1px;
+}
+.HMM{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+    margin: 1px;
+}
 
 
 h1 {
@@ -34,16 +46,19 @@ h1 {
   }
   .WHAT{
     display:flex;
+    flex-direction: row;
     justify-content: center;
       margin: 1px;
   }
   .HUH{
     display:flex;
+    flex-direction: row;
     justify-content: center;
       margin: 1px;
   }
   .HMM{
     display:flex;
+    flex-direction: row;
     justify-content: center;
       margin: 1px;
   }
